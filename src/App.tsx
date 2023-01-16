@@ -1,6 +1,6 @@
-import { CounterPadre } from './modules/CounterPadre';
-import CounterState from './modules/CounterState';
-import UserState from './modules/UserState';
+import { CounterPadre } from './components/CounterPadre';
+import CounterState from './components/CounterState';
+import UserState from './components/UserState';
 
 export const App = () => {
   return (

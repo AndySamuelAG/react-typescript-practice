@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import CounterHijo from './CounterHijo';
 import { ContadorRed } from './ContadorRed';
+import { Formulario } from './Formulario';
 
 export const CounterPadre = () => {
     const [milliseconds, setMilliseconds] = useState(1000);
@@ -20,6 +21,9 @@ export const CounterPadre = () => {
             <h2>useReducer</h2>
             <hr />
             <ContadorRed />
+
+            <Formulario />
+            
         </>
     )
 }
